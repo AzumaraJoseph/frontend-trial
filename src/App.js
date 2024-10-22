@@ -313,6 +313,39 @@ function App() {
               </p>
           </div>
         </div>
+        <div>
+          <div>
+            <h2>Affordable plans for school's needs</h2>
+            <p>Choose the best plan for your school's needs and budget</p>
+          </div>
+          <div>
+            <div style={{ backgroundColor: '#F8FBFD', borderRadius: '20px', width: '280px', height: '250px', padding: '33px 23px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+                <div>
+                  <h2 style={{ margin: '0', color: '#041822', fontSize: '25px', fontFamily: 'Open Sans', fontWeight: '700' }}>Monthly Plan</h2>
+                  <p style={{ marginBottom: '0', color: '#041822', fontFamily: 'Open Sans', fontSize: '16px' }}>Perfect for small school or short-term needs</p>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '2px' }}>
+                  <h2 style={{ margin: '0 3px 0 0', color: '#041822', fontSize: '25px', fontFamily: 'Open Sans', fontWeight: '700' }}>N5000</h2>
+                  <p style={{ margin: '0', color: '#041822', fontSize: '12px', fontFamily: 'Open Sans' }}>Per month</p>
+                </div>
+              </div>
+
+              <button style={{ width: 'inherit'}} className="trial">Start 30 days free trial 
+                      <span>
+                          <svg width="14" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M17 5.99976L1 5.99976" stroke="#F8FBFD" strokeWidth="1.50071" strokeLinecap="round" strokeLinejoin="round"/>
+                              <path d="M12 11C12 11 17 7.31755 17 5.99996C17 4.68237 12 1 12 1" stroke="#F8FBFD" strokeWidth="1.50071" strokeLinecap="round" strokeLinejoin="round"/>
+                          </svg>
+                              
+                      </span>
+                  </button>
+
+            </div>
+          </div>
+        </div>
+
+
       </div>
     </div>
   );
