@@ -13,13 +13,8 @@ import legacy from './assets/img/LEGACY-1.png';
 import anita from './assets/img/Anita-1.png';
 import incomeReport from './assets/img/income report 1 1.png';
 import circularText from './assets/img/Circular-text.png';
-
-
-
-
-
-
-
+import incomeImg from './assets/img/Income-1.png';
+import overviewImg from './assets/img/overview-2.png';
 
 
 function App() {
@@ -184,6 +179,117 @@ function App() {
                             </div>
                         ))}
                     </div>
+                    <div style={{ display: 'flex', gap: '22px' }}>
+                      <div className="tracker">
+                          <div>
+                              <div style={{ borderBottom: '1px solid #E2E9F6', marginBottom: '20px' }}>
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '9px', margin: '0 0 20px 0' }}>
+                                      <span>
+                                          <svg
+                                              width="28"
+                                              height="28"
+                                              viewBox="0 0 28 28"
+                                              fill="none"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                          >
+                                              <rect width="28" height="28" rx="14" fill="#E2E9F6" />
+                                              <path
+                                                  d="M14 18.4686C13.1494 18.8659 12.032 19.1069 10.8082 19.1069C10.1277 19.1069 9.48017 19.0324 8.89307 18.8979C8.51566 18.8115 8.32696 18.7683 8.10084 18.5894C7.97188 18.4873 7.81093 18.2853 7.74025 18.1368C7.61633 17.8765 7.61633 17.624 7.61633 17.1191V10.2426C7.61633 9.61387 8.28025 9.18207 8.89307 9.32243C9.48017 9.45691 10.1277 9.53143 10.8082 9.53143C12.032 9.53143 13.1494 9.29036 14 8.89307C14.8507 8.49577 15.968 8.2547 17.1918 8.2547C17.8723 8.2547 18.5198 8.32923 19.1069 8.4637C19.4843 8.55014 19.673 8.59336 19.8992 8.77228C20.0281 8.87432 20.1891 9.07631 20.2598 9.2248C20.3837 9.48516 20.3837 9.73762 20.3837 10.2426V13.6808"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                                  strokeLinecap="round"
+                                              />
+                                              <path
+                                                  d="M18.1494 19.7453L18.1494 15.2767M15.9152 17.511H20.3837"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                                  strokeLinecap="round"
+                                              />
+                                              <path
+                                                  d="M15.5959 13.6808C15.5959 14.5622 14.8814 15.2767 14 15.2767C13.1186 15.2767 12.4041 14.5622 12.4041 13.6808C12.4041 12.7994 13.1186 12.0849 14 12.0849C14.8814 12.0849 15.5959 12.7994 15.5959 13.6808Z"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                              />
+                                              <path
+                                                  d="M9.85059 14.3192L9.85059 14.3249"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="1.27673"
+                                                  strokeLinecap="round"
+                                                  strokeLinejoin="round"
+                                              />
+                                          </svg>
+                                      </span>
+                                      <p style={{ fontSize: '18px', color: '#041822', fontFamily: 'Open Sans', fontWeight: 600, margin: 0 }}>
+                                          Effortless Income tracking
+                                      </p>
+                                  </div>
+                              </div>
+                              <p style={{ color: '#59676E', lineHeight: '28px', fontSize: '16px' }}>
+                                  Our platform provides a clear and detailed view of your earnings, helping you monitor every income stream effortlessly.
+                              </p>
+                          </div>
+                          <img style={{ width: 'inherit' }} src={incomeImg} alt="Income tracking" />
+                      </div>
+
+                      <div className="tracker">
+                          <div>
+                              <div style={{ borderBottom: '1px solid #E2E9F6', marginBottom: '20px' }}>
+                                  <div style={{ display: 'flex', alignItems: 'center', gap: '9px', margin: '0 0 20px 0' }}>
+                                      <span>
+                                          <svg
+                                              width="28"
+                                              height="28"
+                                              viewBox="0 0 28 28"
+                                              fill="none"
+                                              xmlns="http://www.w3.org/2000/svg"
+                                          >
+                                              <rect width="28" height="28" rx="14" fill="#E2E9F6" />
+                                              <path
+                                                  d="M14 18.4686C13.1494 18.8659 12.032 19.1069 10.8082 19.1069C10.1277 19.1069 9.48017 19.0324 8.89307 18.8979C8.51566 18.8115 8.32696 18.7683 8.10084 18.5894C7.97188 18.4873 7.81093 18.2853 7.74025 18.1368C7.61633 17.8765 7.61633 17.624 7.61633 17.1191V10.2426C7.61633 9.61387 8.28025 9.18207 8.89307 9.32243C9.48017 9.45691 10.1277 9.53143 10.8082 9.53143C12.032 9.53143 13.1494 9.29036 14 8.89307C14.8507 8.49577 15.968 8.2547 17.1918 8.2547C17.8723 8.2547 18.5198 8.32923 19.1069 8.4637C19.4843 8.55014 19.673 8.59336 19.8992 8.77228C20.0281 8.87432 20.1891 9.07631 20.2598 9.2248C20.3837 9.48516 20.3837 9.73762 20.3837 10.2426V13.6808"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                                  strokeLinecap="round"
+                                              />
+                                              <path
+                                                  d="M18.1494 19.7453L18.1494 15.2767M15.9152 17.511H20.3837"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                                  strokeLinecap="round"
+                                              />
+                                              <path
+                                                  d="M15.5959 13.6808C15.5959 14.5622 14.8814 15.2767 14 15.2767C13.1186 15.2767 12.4041 14.5622 12.4041 13.6808C12.4041 12.7994 13.1186 12.0849 14 12.0849C14.8814 12.0849 15.5959 12.7994 15.5959 13.6808Z"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="0.957551"
+                                              />
+                                              <path
+                                                  d="M9.85059 14.3192L9.85059 14.3249"
+                                                  stroke="#002F49"
+                                                  strokeOpacity="0.95"
+                                                  strokeWidth="1.27673"
+                                                  strokeLinecap="round"
+                                                  strokeLinejoin="round"
+                                              />
+                                          </svg>
+                                      </span>
+                                      <p style={{ fontSize: '18px', color: '#041822', fontFamily: 'Open Sans', fontWeight: 600, margin: 0 }}>
+                                          Comprehensive Overview
+                                      </p>
+                                  </div>
+                              </div>
+                              <p style={{ color: '#59676E', lineHeight: '28px', fontSize: '16px' }}>
+                                  Get a complete view of your earnings, expenses, and financial performance to stay informed and make smart business decisions.
+                              </p>
+                          </div>
+                          <img style={{ width: 'inherit' }} src={overviewImg} alt="Comprehensive Overview" />
+                      </div>
+                  </div>
                 </div>
             </section>
         </div>
