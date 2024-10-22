@@ -305,7 +305,7 @@ function App() {
                   </div>
               </div>
               <div style={{ width: '501px', height: '307px' }}>
-                  <h2 style={{ fontSize: '36px', fontFamily: 'Open Sans', fontWeight: 700, color: '#041822', lineHeight: '49px', marginTop: 0 }}>
+                  <h2 style={{ fontSize: '30px', fontFamily: 'Open Sans', fontWeight: 700, color: '#041822', lineHeight: '49px', marginTop: 0 }}>
                       Effortless Salary Payments Made Simple
                   </h2>
                   <p>
