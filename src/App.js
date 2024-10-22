@@ -2,6 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import img1 from './assets/img/img-1.png';
+import img2 from './assets/img/img-2.png';
+import img3 from './assets/img/img-3.png';
+import img4 from './assets/img/img-4.png';
+
+
+import caleb from './assets/img/CALEB-1.png';
+import crown from './assets/img/CROWN-1.png';
+import legacy from './assets/img/LEGACY-1.png';
+import anita from './assets/img/Anita-1.png';
+import incomeReport from './assets/img/income report 1 1.png';
+import circularText from './assets/img/Circular-text.png';
+
+
+
+
+
+
 
 
 
@@ -80,10 +97,10 @@ function App() {
                     </p>
                     <div className="schools">
                         {[
-                            { src: './assets/img/CALEB-1.png', name: 'Caleb International School' },
-                            { src: './assets/img/CROWN-1.png', name: 'Crowns Gate School' },
-                            { src: './assets/img/LEGACY-1.png', name: 'Legacy Schools' },
-                            { src: './assets/img/Anita-1.png', name: 'Anita College' }
+                            { src: caleb, name: 'Caleb International School' },
+                            { src: crown, name: 'Crowns Gate School' },
+                            { src: legacy, name: 'Legacy Schools' },
+                            { src: anita, name: 'Anita College' }
                         ].map((school, index) => (
                             <div className="school" key={index}>
                                 <img src={school.src} alt="" />
@@ -102,9 +119,13 @@ function App() {
                     </p>
                 </div>
                 <div style={{ width: '490px', height: '400px', display: 'flex', justifyContent: 'flex-end' }}>
-                    <img className="circle-logo" src="./assets/img/Circular-text.png" alt="" />
+                    {/* <img className="circle-logo" src="./assets/img/Circular-text.png" alt="" /> */}
+                    <img className="circle-logo" src={circularText} alt='' />
+
                     <div className="circle">
-                        <img className="circle-img" src="./assets/img/income report 1 1.png" alt="" />
+                        {/* <img className="circle-img" src="./assets/img/income report 1 1.png" alt="" /> */}
+                        <img className="circle-img" src={incomeReport} alt='' />
+
                     </div>
                 </div>
             </section>
@@ -124,13 +145,18 @@ function App() {
                             {
                                 title: 'Secured Wallet Management',
                                 description: 'Access a secure wallet to handle payments for salaries and expenses without any hassle',
-                                img: './assets/img/img-2.png'
+                                img: img2
                             },
                             {
                                 title: 'Expense Tracking Made Simple',
                                 description: 'Monitor and track all school-related expenses with a streamlined payment system',
-                                img: './assets/img/img-3.png'
-                            }
+                                img: img3
+                            },
+                            {
+                              title: 'Effortless School fees tracking',
+                              description: 'With our platform, schools can effortlessly monitor fee payments.',
+                              img: img4
+                          }
                         ].map((feature, index) => (
                             <div className="features" key={index}>
                                 <div style={{ width: '334px', height: '319px', padding: '20px 13px 1px 26px', display: 'flex', flexDirection: 'column', justifyContent: 'space-around' }}>
