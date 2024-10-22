@@ -15,6 +15,9 @@ import incomeReport from './assets/img/income report 1 1.png';
 import circularText from './assets/img/Circular-text.png';
 import incomeImg from './assets/img/Income-1.png';
 import overviewImg from './assets/img/overview-2.png';
+import confirmationPopUp1 from './assets/img/confirmation-pop-up-1.png';
+import confirmationPopUp2 from './assets/img/confirmation-pop-up-2.png';
+import confirmationPopUp3 from './assets/img/confirmation-pop-up-3.png';
 
 
 function App() {
@@ -125,7 +128,7 @@ function App() {
                 </div>
             </section>
 
-            <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '60px' }}>
+            <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '60px', marginBottom: '174px' }}>
                 <div style={{ width: '1000px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '15px' }}>
                     <h2 style={{ color: '#4B8BBE', fontSize: '36px', fontWeight: 700, fontFamily: 'Open Sans', width: '800px', margin: 0 }}>
                         Comprehensive Features to Manage your school's Finances
@@ -292,6 +295,24 @@ function App() {
                   </div>
                 </div>
             </section>
+
+            <div style={{ display: 'flex', gap: '40px', alignItems: 'flex-end', marginBottom: '174px' }}>
+              <div style={{ width: '621px' }}>
+                  <div className="circle">
+                      <img className="circle-img-1" src={confirmationPopUp1} alt="Confirmation Pop Up 1" />
+                      <img className="circle-img-2" src={confirmationPopUp2} alt="Confirmation Pop Up 2" />
+                      <img className="circle-img-3" src={confirmationPopUp3} alt="Confirmation Pop Up 3" />
+                  </div>
+              </div>
+              <div style={{ width: '501px', height: '307px' }}>
+                  <h2 style={{ fontSize: '36px', fontFamily: 'Open Sans', fontWeight: 700, color: '#041822', lineHeight: '49px', marginTop: 0 }}>
+                      Effortless Salary Payments Made Simple
+                  </h2>
+                  <p>
+                      Streamline your school's payroll process with our secure wallet system that allows for quick and easy salary payments. With just a few clicks, you can reduce administrative workload, eliminate errors, and ensure that your staff are paid accurately and on time, allowing you to focus more on what truly matters—educating and supporting your students.
+                  </p>
+              </div>
+          </div>
         </div>
     </div>
   );

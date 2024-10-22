@@ -200,6 +200,27 @@ nav {
   border-radius: 50%;
 }
 
+.circle-img-1 {
+  position: absolute;
+  top: -25px;
+  left: 0px;
+  width: 180px;
+}
+
+.circle-img-2 {
+  position: absolute;
+  top: 80px;
+  left: 60px;
+  width: 248px;
+}
+
+.circle-img-3 {
+  position: absolute;
+  top: 140px;
+  left: 309px;
+  width: 180px;
+}
+
 .circle-img {
   position: absolute;
   top: 33px;
