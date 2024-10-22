@@ -314,7 +314,7 @@ function App() {
           </div>
         </div>
         <div>
-          <div style={{ width: '540px', margin: 'auto', textAlign: 'center'}}>
+          <div style={{ width: '540px', margin: 'auto', textAlign: 'center', marginBottom: '60px'}}>
             <h2 style={{ color: '#4B8BBE', fontSize: '30px', fontWeight: '700', fontFamily: 'Open Sans', lineHeight: '49px', margin: '0'}}>Affordable plans for school's needs</h2>
             <p style={{ color: '#041822', fontSize: '16px', fontFamily: 'Open Sans', margin: '0'}}>Choose the best plan for your school's needs and budget</p>
           </div>
